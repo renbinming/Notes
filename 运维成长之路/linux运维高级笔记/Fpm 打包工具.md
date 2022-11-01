@@ -49,7 +49,7 @@ make && make install
 查询 依赖库
 
 ```shell
-for so in  `find /usr/local/webserver/nginx -type f -exec ldd {} 2>/dev/null \;grep -oP '/.+[0-9]\s'`;do rpm -qf $so;done|sort|uniq|sed 's/-[0-9].*//g'
+for so in  `find /usr/local/webserver/nginx -type f -exec ldd {} 2>/dev/null \;|grep -oP '/.+[0-9]\s'`;do rpm -qf $so;done|sort|uniq|sed 's/-[0-9].*//g'
 
 输出如下：
 glibc
@@ -146,7 +146,7 @@ make && make install
 查询php依赖库
 
 ```shell
-for so in  `find /usr/local/webserver/php -type f -exec ldd {} 2>/dev/null \;grep -oP '/.+[0-9]\s'`;do rpm -qf $so;done|sort|uniq|sed 's/-[0-9].*//g'
+for so in  `find /usr/local/webserver/php -type f -exec ldd {} 2>/dev/null \;|grep -oP '/.+[0-9]\s'`;do rpm -qf $so;done|sort|uniq|sed 's/-[0-9].*//g'
 ```
 
 

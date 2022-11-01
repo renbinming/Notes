@@ -408,7 +408,9 @@ iptables 规则允许通信
 
    
 
-   ```shell
+```shell
+   
+
 # 查看所有存储卷
 
 [root@DOCKER-HARBOR ~]# docker volume ls
@@ -416,7 +418,10 @@ iptables 规则允许通信
    local     1c2fa36eee3a986dc5ab52b3041bcb4405d9c156291959f25b113741af1ab45c
    local     
 # 查看数据卷详细内容
+
+
 [root@DOCKER-HARBOR ~]# docker inspect 数据卷别名
+
 # docker volume inspect 7a2330d2aa898278aad3ff5a30a60915ed628fd914c8f579aa2b6e4773bf60b7
 [
     {
@@ -429,7 +434,7 @@ iptables 规则允许通信
         "Scope": "local"
     }
 ]
-   ```
+```
 
    
 
@@ -463,7 +468,7 @@ docker run --volume-from
 
 
 
-```
+   ```
 
 # 设定支撑容器，不需要启动，只需要创建即可
 docker run --name inframecontainer -v /data/infracon/volume:/data/web/html busybox
@@ -471,7 +476,7 @@ docker run --name inframecontainer -v /data/infracon/volume:/data/web/html busyb
 # nginx 加入到支撑容器
 docker run --name nginx --network container:infracon --volumes-from infracon busybox
 
-```
+   ```
 
 ## Dockerfile 镜像构建
 
@@ -494,8 +499,6 @@ VOLUME /data/mysql/
 EXPOSE 80/tcp
 # CMD 只有最后一个生效，运行在容器启动时
 CMD 
-
-
 ```
 
 docker build -t tagname:labelname .
@@ -537,17 +540,49 @@ docker exec -it   web2 /bin/sh
 
 
 
+**推荐使用数组方式，可以在运行容器时传参**
+
 CMD ['参数1'，''参数2]
 
 ENTRYPOINT 
 
 参数传递给 entrypoint
 
+差别
+
+**运行CMD时，覆盖Dockerfile里的命令**
+
+**docker run mycentos:15 ls /data0**
+
+**运行ENTRYPOINT，**
+
+**docker run --entrypoint=ls mycentos:15 /data0** 
+
+前面是指令，后面是参数
+
+
+
+结合使用
+
+ENTRYPOINT ['ls']   # 写容器的固定指令
+
+CMD ['/apps/data']   # 给entrypoint 传递参数
+
 
 
 ONBUILD 触发器，别人使用镜像时触发的动作
 
 ​					一般执行RUN ADD
+
+```dockerfile
+FROM openjdk:8-jre
+ENV APP_PATH=/apps
+WORKDIR $APP_PATH
+ADD ems-0.0.1-SNAPSHOT.jar $APP_PATH/apps.jar  # 添加的时候改名字
+EXPOSE 8989
+ENTRYPOINT ['java', '-j']
+CMD ['apps.jar']
+```
 
 
 
@@ -564,7 +599,7 @@ ONBUILD 触发器，别人使用镜像时触发的动作
   ],
     "insecure-registries": ["192.168.201.134:80"],
   "data-root": "/data0/docker"  # 修改默认存储路径
-  
+
 }
 ```
 
@@ -601,3 +636,4 @@ docker start container_id|container_name
 docker save  nginx1 -o nginx.tar
 
 docker load -i nginx.tar
+
