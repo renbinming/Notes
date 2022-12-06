@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "77e651055b6802f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "2855759188bff549",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1339db6774c1b112",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "运维成长之路/Java/JVM基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2182d21d0cd6d8e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "f035db06a6fa4e18",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f19e39f592c638a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "406790ab4fb8d0d2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8adf9b5e71ad17cf",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "173594383ccc6f01",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a06f099c08e1cbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78158a5d8ddd0ff6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "运维成长之路/Java/JVM基础.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "acb1c697b803c389",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "运维成长之路/Java/JVM基础.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "078290253d5d68cb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a4b61d2d466d8396",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "运维成长之路/Java/JVM基础.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1339db6774c1b112",
+  "lastOpenFiles": [
+    "运维成长之路/Java/attachments/Pasted image 20221129135819.png",
+    "运维成长之路/Java/docker jenkins问题.md",
+    "运维成长之路/Java/attachments/Pasted image 20221129153352.png",
+    "运维成长之路/Java/attachments/Pasted image 20221129171722.png",
+    "运维成长之路/Java/attachments/Pasted image 20221129171830.png",
+    "运维成长之路/Java/attachments/wps1.jpg",
+    "运维成长之路/阿里云产品实践/弹性伸缩.md",
+    "运维成长之路/阿里云产品实践/attachments/Pasted image 20221129102028.png",
+    "运维成长之路/阿里云产品实践/attachments/Pasted image 20221129101312.png",
+    "运维成长之路/阿里云产品实践/attachments/Pasted image 20221129111830.png"
+  ]
+}
