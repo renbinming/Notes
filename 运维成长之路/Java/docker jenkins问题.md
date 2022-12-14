@@ -32,3 +32,26 @@ services:
       - ./data:/var/jenkins_home/
       - /var/run/docker.sock:/var/run/docker.sock
 ```
+
+
+### 关于容器删除后，maven 插件需要重新安装的问题
+看看maven的配置文件，setting.xml
+```xml
+  <!-- localRepository
+   | The path to the local repository maven will use to store artifacts.
+   |
+   | Default: ${user.home}/.m2/repository
+  <localRepository>/path/to/local/repo</localRepository>
+  -->
+
+```
+默认是 ${user.home}/.m2/repository，由于容器使用root用户启动，因此 .m2 文件夹会在容器里的
+/root/.m2 下
+容器如果删除，maven 就不得不重新下载~~~
+
+改一下
+```
+<localRepository>${env.JENKINS_HOME}/.m2/repository</localRepository>
+```
+docker cp jenkins:/root/.m2 data/
+

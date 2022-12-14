@@ -66,3 +66,11 @@ eef336aa6dd9   bridge                   bridge    local
 3fd72442d8ad   jenkins_docker_default   bridge    local
 a20359df55aa   none                     null      local
 ```
+
+## 如何使用默认网络
+
+
+使用
+```
+network_mode: bridge
+```
