@@ -74,3 +74,6 @@ a20359df55aa   none                     null      local
 ```
 network_mode: bridge
 ```
+
+注意：使用默认的 docker0 桥，不能使用容器名称访问，只能使用容器  IP
+严格上，应当创建一个 bridge 网络
