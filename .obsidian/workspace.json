@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "2855759188bff549",
+        "id": "c52137af65043de8",
         "type": "tabs",
         "children": [
           {
-            "id": "1339db6774c1b112",
+            "id": "7ee7fdc9398aa8b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "运维成长之路/Java/JVM基础.md",
+                "file": "运维成长之路/阿里云产品实践/ECS 规格.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f500ddadc555824b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "运维成长之路/阿里云产品实践/VPC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a84773dec5d4810",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "运维成长之路/阿里云产品实践/OSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "运维成长之路/Java/JVM基础.md",
+                "file": "运维成长之路/阿里云产品实践/OSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "运维成长之路/Java/JVM基础.md",
+                "file": "运维成长之路/阿里云产品实践/OSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "运维成长之路/Java/JVM基础.md"
+                "file": "运维成长之路/阿里云产品实践/OSS.md"
               }
             }
           }
@@ -136,17 +161,43 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1339db6774c1b112",
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "6a84773dec5d4810",
   "lastOpenFiles": [
-    "运维成长之路/Java/attachments/Pasted image 20221129135819.png",
+    "运维成长之路/阿里云产品实践/VPC.md",
+    "运维成长之路/阿里云产品实践/OSS.md",
+    "运维成长之路/阿里云产品实践/镜像.md",
+    "运维成长之路/mysql/mysql 5.7 升级到 8.0.md",
+    "ruby 环境管理.md",
     "运维成长之路/Java/docker jenkins问题.md",
-    "运维成长之路/Java/attachments/Pasted image 20221129153352.png",
-    "运维成长之路/Java/attachments/Pasted image 20221129171722.png",
-    "运维成长之路/Java/attachments/Pasted image 20221129171830.png",
-    "运维成长之路/Java/attachments/wps1.jpg",
+    "运维成长之路/Java/attachments/Pasted image 20230310145626.png",
+    "运维成长之路/阿里云产品实践/ECS 规格.md",
+    "保持开放-持续学习/zulip 开源聊天室-slack替代品.md",
+    "保持开放-持续学习/restorePhotos项目.md",
+    "运维成长之路/阿里云产品实践/负载均衡.md",
     "运维成长之路/阿里云产品实践/弹性伸缩.md",
-    "运维成长之路/阿里云产品实践/attachments/Pasted image 20221129102028.png",
-    "运维成长之路/阿里云产品实践/attachments/Pasted image 20221129101312.png",
-    "运维成长之路/阿里云产品实践/attachments/Pasted image 20221129111830.png"
+    "运维成长之路/python/django/启动.md",
+    "运维成长之路/技术文档/网络基础.md",
+    "运维成长之路/技巧路线/一行代码启动一个web 服务器.md",
+    "运维成长之路/技巧路线/0.jpg",
+    "通用文档.md",
+    "运维成长之路/python/爬虫/pyspider.md",
+    "运维成长之路/nginx/nginx.md",
+    "运维成长之路/linux运维高级笔记/Fpm 打包工具.md",
+    "运维成长之路/虚拟化/vSphere 基础.md",
+    "运维成长之路/前端/基础知识.md",
+    "运维成长之路/技术文档/HTTP基础.md",
+    "系统设计/进程.md",
+    "系统设计/带宽延时抖动.md",
+    "运维成长之路/python/工具使用/vscode.md"
   ]
 }
