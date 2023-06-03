@@ -15,3 +15,7 @@ google 开源的图片压缩工具 squoosh
 
 
 redisson  官方推荐的 redis 客户端
+
+[Microsoft Store - Generation Project (v1.2.3) [by @rgadguard & mkuba50] (rg-adguard.net)](https://store.rg-adguard.net/)
+
+离线安装 microsoft 的应用

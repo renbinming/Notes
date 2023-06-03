@@ -21,3 +21,16 @@ VLC 开源视频播放下载器
 
 
 下载完，可以使用视频转换工具，合并视频
+
+
+[AlphaSSL 泛域名证书申请引导 (moeclub.org)](https://alphassl.moeclub.org/)
+
+python -m ensurepip --default-pip 直接安装
+
+clipchamp 分离音频
+
+pr 
+
+buzz  音频转文字，openai 开源版
+
+https://jianwai.youdao.com/ 网易免费在线音频转换
