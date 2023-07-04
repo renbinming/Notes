@@ -31,3 +31,8 @@ ctrl + shift + p
 ```
 ## python 插件
 配置自动补全
+
+
+ctrl+shift+p
+创建python venv 环境
+venv

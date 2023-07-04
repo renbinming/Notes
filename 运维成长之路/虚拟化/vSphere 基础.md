@@ -35,3 +35,51 @@
 
 未共享： 虚拟机已占用，且不与其他虚拟机共享的存储
 已用为什么是磁盘的两倍，因为做了快照。
+
+
+文件格式
+
+VMXF  
+vmx 虚拟机配置文件
+vmdk 虚拟磁盘文件，类似 ISO
+
+
+```
+#远程esxi
+设置ssh 认证方式
+启用ssh
+
+#设置时区
+vi
+esxcli system time set -H 19 -m 17 -s 18
+
+#定时关机
+#/vmfs/volumnes/datastore1/autoshutdown.sh执行脚本路径
+设置执行脚本
+
+vim-cmd vmsvc/getallvms  查看所有vm
+vim-cmd vmsvc/power.off 10 关闭vm，强制关机
+vim-cmd vmsvc/power.shutdown 正常关机，需要安装vmware tools
+/sbin/poweroff  关闭vm host宿主机
+
+#!/bin/sh
+
+#shutdown all VMs
+for i in `vim-cmd vmsvc/getallvms|awk '{if(NR>1) print $1}'`;do vim-cmd vmsvc/power.shutdown  $i;done
+echo "Closed all vms"
+echo "Closing  Host Machine..."
+#Poweroff Host
+/sbin/poweroff
+
+#设置定时任务
+#!/bin/sh
+/bin/echo "2    *   *   *   *   sh /vmfs/snapshot_creat.sh" >>/var/spool/cron/crontabs/root 
+/bin/echo "30   *   *   *   *   sh /vmfs/snapshot_del.sh" >>/var/spool/cron/crontabs/root
+kill $(cat /var/run/crond.pid)
+crond
+mv /etc/localtime /etc/localtime.bak
+cp /vmfs/volumes/datastore1/Shanghai /etc/localtime 
+/bin/echo "00   1   3   7   *   sh /vmfs/volumes/datastore1/shutdown.sh" >>/var/spool/cron/crontabs/root
+exit 0
+
+```
