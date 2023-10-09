@@ -83,3 +83,4 @@ cp /vmfs/volumes/datastore1/Shanghai /etc/localtime
 exit 0
 
 ```
+
