@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "运维成长之路/python/工具使用/jupyter notebook.md",
+                "file": "运维成长之路/k8s/devops核心要点和k8s架构.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,31 +52,18 @@
             }
           },
           {
-            "id": "6379ce89568e5417",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "保持开放-持续学习/理解运维.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0bb7b0235ffaf4e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "运维成长之路/技术文档/软件.md",
+                "file": "运维成长之路/虚拟化/云计算基础.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "certbot",
+                "query": "service",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "运维成长之路/技术文档/软件.md",
+                "file": "运维成长之路/k8s/devops核心要点和k8s架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "运维成长之路/技术文档/软件.md",
+                "file": "运维成长之路/k8s/devops核心要点和k8s架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "运维成长之路/技术文档/软件.md"
+                "file": "运维成长之路/k8s/devops核心要点和k8s架构.md"
               }
             }
           },
@@ -222,38 +209,38 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0bb7b0235ffaf4e3",
+  "active": "38b7272c5f8abdff",
   "lastOpenFiles": [
-    "运维成长之路/linux运维高级笔记/磁盘及分区管理.md",
-    "运维成长之路/linux运维高级笔记/系统管理必备技能.md",
-    "运维成长之路/技巧路线/一行代码启动一个web 服务器.md",
-    "运维成长之路/mysql/mysql 5.7 升级到 8.0.md",
-    "运维成长之路/mysql/备份恢复.md",
-    "运维成长之路/技术文档/软件.md",
-    "运维成长之路/mysql/percona.md",
-    "保持开放-持续学习/视频基础概念.png",
-    "保持开放-持续学习/文件同步.md",
-    "保持开放-持续学习/未命名.md",
+    "运维成长之路/阿里云产品实践/VPC.md",
+    "运维成长之路/k8s/devops核心要点和k8s架构.md",
+    "运维成长之路/docker/docker 技术基础.md",
+    "运维成长之路/docker/容器监控.md",
+    "运维成长之路/docker/面试.md",
+    "运维成长之路/docker/devops.md",
     "保持开放-持续学习/理解运维.md",
-    "预测与训练.md",
+    "运维成长之路/网络安全/计算机网络基础.md",
+    "运维成长之路/虚拟化/云计算基础.md",
+    "运维成长之路/虚拟化/LVM 扩容.md",
     "通用文档.md",
+    "运维成长之路/nginx/nginx.md",
+    "运维成长之路/linux运维高级笔记/bash编程.md",
+    "运维成长之路/docker/docker 日志管理.md",
+    "运维成长之路/docker/Dockerfile 最佳实践.md",
+    "运维成长之路/docker/docker-compose 部署jira+confluence.md",
+    "运维成长之路/docker/docker-compose 单机多容器管理.md",
+    "保持开放-持续学习/zulip 开源聊天室-slack替代品.md",
+    "保持开放-持续学习/未命名.md",
+    "运维成长之路/阿里云产品实践/ECS 规格.md",
+    "运维成长之路/python/基础/常用数据结构.md",
+    "运维成长之路/python/工具使用/jupyter notebook.md",
+    "运维成长之路/Java/springboot 日志管理.md",
+    "运维成长之路/Java/JVM基础.md",
+    "运维成长之路/docker/Dockerfile 多阶段构建.md",
+    "存储/存储.md",
+    "保持开放-持续学习/视频基础概念.png",
     "保持开放-持续学习/http协议.png",
-    "运维成长之路/阿里云产品实践/弹性伸缩.md",
     "保持开放-持续学习/attatchments/分类.png",
     "保持开放-持续学习/attatchments",
-    "运维成长之路/前端/基础知识.md",
-    "运维成长之路/技术文档/HTTP基础.md",
-    "运维成长之路/技术文档/git 相关问题.md",
-    "运维成长之路/技术文档/curl proxy.md",
-    "运维成长之路/技术文档/网络基础.md",
-    "存储/存储.md",
-    "运维成长之路/阿里云产品实践/VPC.md",
-    "运维成长之路/阿里云产品实践/OSS.md",
-    "运维成长之路/阿里云产品实践/ECS 规格.md",
-    "运维成长之路/阿里云产品实践/镜像.md",
-    "运维成长之路/阿里云产品实践/负载均衡.md",
-    "运维成长之路/python/基础/常用库.md",
-    "运维成长之路/python/基础/环境-类型-进制.md",
     "运维成长之路/python/基础/语言类型.png",
     "保持开放-持续学习/windows下多用户远程同一台主机.pdf",
     "存储",

@@ -456,10 +456,20 @@ docker run --name b1 -it -v 宿主机目录:docker目录  busybox:latest
 ​		/data0/volumes 对应 容器里的 /data 目录
 
 
-
+### 共享数据卷
 docker run --volume-from
+首先需要提前规划并生成共享数据卷容器，然后其他容器用 --volume-from 参数
 
+#### 容器数据卷备份
+docker run --name container1 -v /data ubuntu:20.08 # 挂载data目录
+docker run --it --volume-from container1 -v /var/lib/docker/volumes/test:/backup --name docker_backup --rm ubuntu:20.08 tar cvf /backup/backup.tar /data # 打包共享卷里的 data 目录到 backup，backup 又映射到了 test 目录
 
+#### 数据卷还原
+创建一个恢复容器
+docker run --it --name recover -v /data ubuntu:20.08 /bin/bash
+创建临时容器恢复
+docker run --rm --volume-from recover -v /var/lib/docker/volumes/test:/backup ubuntu:20.08 tar xvf /backup/backup.tar /data
+先将test里的备份文件映射到 backup 目录，再解压 backup.tar 到data目录，data 映射到 recover 里
 
 ​		docker inspect -f  {{.Mounts}} b2
 

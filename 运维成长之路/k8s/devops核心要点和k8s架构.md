@@ -531,6 +531,8 @@ apiserver 只接收 JSON 格式的资源定义
 
 yaml 格式提供配置清单，apiserver 可以自动将其转为 json 格式
 
+只需要告诉机器最终结果
+
 ```yaml
 apiVersion: group/version
 	$ kubectl api-versions 可查看支持的version

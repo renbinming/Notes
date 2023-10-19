@@ -44,6 +44,19 @@ cd nginx-1.22.0
 --with-http_v2_module
 ```
 
+编译添加其他扩展
+```
+./configure --prefix=/usr/local/webserver/nginx \
+--user=www \
+--group=www \
+--with-http_stub_status_module \
+--with-http_ssl_module  \
+--with-http_gzip_static_module \
+--with-http_realip_module \
+--with-http_v2_module \
+--add-module=../ngx_cache_purge-2.3
+```
+
 make && make install
 
 查询 依赖库
