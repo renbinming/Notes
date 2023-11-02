@@ -4,60 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "80ffc5aa9ee2dd3d",
+        "id": "5c270e78b62a64d3",
         "type": "tabs",
         "children": [
           {
-            "id": "38b7272c5f8abdff",
+            "id": "3ed18136d8b0645d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "运维成长之路/k8s/devops核心要点和k8s架构.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0133622b91e24537",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "1450974ce87faf22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "运维成长之路/python/基础/函数.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1858f13adb19b6f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "运维成长之路/python/基础/常用数据结构.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bb7b0235ffaf4e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "运维成长之路/虚拟化/云计算基础.md",
+                "file": "运维成长之路/docker/【部署】docker 部署 jenkins.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "service",
+                "query": "时间同步",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "运维成长之路/k8s/devops核心要点和k8s架构.md",
+                "file": "运维成长之路/docker/【部署】docker 部署 jenkins.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "运维成长之路/k8s/devops核心要点和k8s架构.md",
+                "file": "运维成长之路/docker/【部署】docker 部署 jenkins.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "运维成长之路/k8s/devops核心要点和k8s架构.md"
+                "file": "运维成长之路/docker/【部署】docker 部署 jenkins.md"
               }
             }
           },
@@ -209,47 +164,50 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "38b7272c5f8abdff",
+  "active": "3ed18136d8b0645d",
   "lastOpenFiles": [
-    "运维成长之路/阿里云产品实践/VPC.md",
+    "运维成长之路/docker/attachments/Pasted image 20221122105908.png",
+    "运维成长之路/docker/attachments/Pasted image 20221122105820.png",
+    "运维成长之路/docker/attachments/Pasted image 20221122105729.png",
+    "运维成长之路/docker/attachments/Pasted image 20221118094802.png",
+    "Pasted image 20221117170109.png.md",
+    "运维成长之路/docker/【部署】docker 部署 jenkins.md",
+    "运维成长之路/docker/attachments/Pasted image 20221118165004 1.png",
+    "运维成长之路/docker/attachments/Pasted image 20221118165004.png",
+    "运维成长之路/docker/attachments/Pasted image 20221118165139.png",
+    "运维成长之路/docker/面试.md",
+    "Pasted image 20221118165139.png.md",
+    "运维成长之路/docker/devops.md",
+    "运维成长之路/docker/docker-compose 部署jira+confluence.md",
+    "运维成长之路/前端/Html+CSS+JS.md",
+    "运维成长之路/前端/基础知识.md",
+    "运维成长之路/技巧路线/如何做到高效运维.md",
+    "运维成长之路/技巧路线/TIM截图20170910204453.png",
+    "运维成长之路/技巧路线/TIM截图20170910203622.png",
+    "运维成长之路/技巧路线/TIM截图20170910203351.png",
+    "运维成长之路/技巧路线/EWWZBag.jpg",
+    "运维成长之路/技巧路线/attachments",
+    "Pasted image 20230303154237.png.md",
+    "保持开放-持续学习/理解运维.md",
+    "运维成长之路/k8s/Tecton.md",
+    "运维成长之路/docker/docker-compose 单机多容器管理.md",
+    "运维成长之路/docker/Dockerfile 多阶段构建.md",
+    "运维成长之路/linux运维高级笔记/系统管理必备技能.md",
+    "运维成长之路/linux运维高级笔记/磁盘及分区管理.md",
+    "保持开放-持续学习/未命名.md",
+    "保持开放-持续学习/restorePhotos项目.md",
+    "保持开放-持续学习/windows下多用户远程同一台主机.pdf",
+    "保持开放-持续学习/zulip 开源聊天室-slack替代品.md",
     "运维成长之路/k8s/devops核心要点和k8s架构.md",
+    "运维成长之路/nginx/nginx.md",
+    "运维成长之路/docker/Dockerfile 最佳实践.md",
+    "运维成长之路/阿里云产品实践/VPC.md",
     "运维成长之路/docker/docker 技术基础.md",
     "运维成长之路/docker/容器监控.md",
-    "运维成长之路/docker/面试.md",
-    "运维成长之路/docker/devops.md",
-    "保持开放-持续学习/理解运维.md",
-    "运维成长之路/网络安全/计算机网络基础.md",
-    "运维成长之路/虚拟化/云计算基础.md",
-    "运维成长之路/虚拟化/LVM 扩容.md",
-    "通用文档.md",
-    "运维成长之路/nginx/nginx.md",
-    "运维成长之路/linux运维高级笔记/bash编程.md",
-    "运维成长之路/docker/docker 日志管理.md",
-    "运维成长之路/docker/Dockerfile 最佳实践.md",
-    "运维成长之路/docker/docker-compose 部署jira+confluence.md",
-    "运维成长之路/docker/docker-compose 单机多容器管理.md",
-    "保持开放-持续学习/zulip 开源聊天室-slack替代品.md",
-    "保持开放-持续学习/未命名.md",
-    "运维成长之路/阿里云产品实践/ECS 规格.md",
-    "运维成长之路/python/基础/常用数据结构.md",
-    "运维成长之路/python/工具使用/jupyter notebook.md",
-    "运维成长之路/Java/springboot 日志管理.md",
-    "运维成长之路/Java/JVM基础.md",
-    "运维成长之路/docker/Dockerfile 多阶段构建.md",
-    "存储/存储.md",
-    "保持开放-持续学习/视频基础概念.png",
-    "保持开放-持续学习/http协议.png",
-    "保持开放-持续学习/attatchments/分类.png",
     "保持开放-持续学习/attatchments",
-    "运维成长之路/python/基础/语言类型.png",
-    "保持开放-持续学习/windows下多用户远程同一台主机.pdf",
     "存储",
     "未命名.canvas",
-    "运维成长之路/虚拟化/attachments/Pasted image 20230603164301.png",
-    "运维成长之路/虚拟化/attachments/Pasted image 20230601151415.png",
     "AI/SD",
-    "AI",
-    "运维成长之路/Java/attachments/Pasted image 20230310145626.png",
-    "运维成长之路/技巧路线/0.jpg"
+    "AI"
   ]
 }

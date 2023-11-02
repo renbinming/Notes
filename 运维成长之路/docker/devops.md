@@ -4,8 +4,6 @@
 
 运维的职责：将开发团队的code 进行测试后部署上线。希望系统稳定安全运行
 
-![image-20220909174618019](C:\Users\Binmi\AppData\Roaming\Typora\typora-user-images\image-20220909174618019.png)
-
  ## CI 过程  持续集成
 
 构建 测试
