@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3ed18136d8b0645d",
+            "id": "6dc54bc46e26eff4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "运维成长之路/docker/【部署】docker 部署 jenkins.md",
+                "file": "ruby 环境管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "运维成长之路/docker/【部署】docker 部署 jenkins.md",
+                "file": "ruby 环境管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "运维成长之路/docker/【部署】docker 部署 jenkins.md",
+                "file": "ruby 环境管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "运维成长之路/docker/【部署】docker 部署 jenkins.md"
+                "file": "ruby 环境管理.md"
               }
             }
           },
@@ -164,19 +164,22 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3ed18136d8b0645d",
+  "active": "6dc54bc46e26eff4",
   "lastOpenFiles": [
+    "预测与训练.md",
+    "通用文档.md",
+    "Pasted image 20221118165139.png.md",
+    "Pasted image 20221117170109.png.md",
+    "Pasted image 20230303154237.png.md",
+    "运维成长之路/docker/【部署】docker 部署 jenkins.md",
     "运维成长之路/docker/attachments/Pasted image 20221122105908.png",
     "运维成长之路/docker/attachments/Pasted image 20221122105820.png",
     "运维成长之路/docker/attachments/Pasted image 20221122105729.png",
     "运维成长之路/docker/attachments/Pasted image 20221118094802.png",
-    "Pasted image 20221117170109.png.md",
-    "运维成长之路/docker/【部署】docker 部署 jenkins.md",
     "运维成长之路/docker/attachments/Pasted image 20221118165004 1.png",
     "运维成长之路/docker/attachments/Pasted image 20221118165004.png",
     "运维成长之路/docker/attachments/Pasted image 20221118165139.png",
     "运维成长之路/docker/面试.md",
-    "Pasted image 20221118165139.png.md",
     "运维成长之路/docker/devops.md",
     "运维成长之路/docker/docker-compose 部署jira+confluence.md",
     "运维成长之路/前端/Html+CSS+JS.md",
@@ -185,9 +188,7 @@
     "运维成长之路/技巧路线/TIM截图20170910204453.png",
     "运维成长之路/技巧路线/TIM截图20170910203622.png",
     "运维成长之路/技巧路线/TIM截图20170910203351.png",
-    "运维成长之路/技巧路线/EWWZBag.jpg",
     "运维成长之路/技巧路线/attachments",
-    "Pasted image 20230303154237.png.md",
     "保持开放-持续学习/理解运维.md",
     "运维成长之路/k8s/Tecton.md",
     "运维成长之路/docker/docker-compose 单机多容器管理.md",
@@ -203,7 +204,6 @@
     "运维成长之路/docker/Dockerfile 最佳实践.md",
     "运维成长之路/阿里云产品实践/VPC.md",
     "运维成长之路/docker/docker 技术基础.md",
-    "运维成长之路/docker/容器监控.md",
     "保持开放-持续学习/attatchments",
     "存储",
     "未命名.canvas",
