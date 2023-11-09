@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5c270e78b62a64d3",
+        "id": "68e1be406ddafcdd",
         "type": "tabs",
         "children": [
           {
-            "id": "6dc54bc46e26eff4",
+            "id": "90bcc195a14f5776",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ruby 环境管理.md",
+                "file": "运维成长之路/k8s/Tecton.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ruby 环境管理.md",
+                "file": "运维成长之路/k8s/Tecton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ruby 环境管理.md",
+                "file": "运维成长之路/k8s/Tecton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ruby 环境管理.md"
+                "file": "运维成长之路/k8s/Tecton.md"
               }
             }
           },
@@ -164,8 +164,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6dc54bc46e26eff4",
+  "active": "90bcc195a14f5776",
   "lastOpenFiles": [
+    "运维成长之路/redis/Redis.md",
+    "运维成长之路/redis/Redis 集群模式.md",
+    "未命名.canvas",
+    "运维成长之路/redis/attachments/Pasted image 20231106182018.png",
+    "运维成长之路/redis/attachments",
+    "ruby 环境管理.md",
+    "运维成长之路/redis",
     "预测与训练.md",
     "通用文档.md",
     "Pasted image 20221118165139.png.md",
@@ -187,7 +194,6 @@
     "运维成长之路/技巧路线/如何做到高效运维.md",
     "运维成长之路/技巧路线/TIM截图20170910204453.png",
     "运维成长之路/技巧路线/TIM截图20170910203622.png",
-    "运维成长之路/技巧路线/TIM截图20170910203351.png",
     "运维成长之路/技巧路线/attachments",
     "保持开放-持续学习/理解运维.md",
     "运维成长之路/k8s/Tecton.md",
@@ -201,12 +207,8 @@
     "保持开放-持续学习/zulip 开源聊天室-slack替代品.md",
     "运维成长之路/k8s/devops核心要点和k8s架构.md",
     "运维成长之路/nginx/nginx.md",
-    "运维成长之路/docker/Dockerfile 最佳实践.md",
-    "运维成长之路/阿里云产品实践/VPC.md",
-    "运维成长之路/docker/docker 技术基础.md",
     "保持开放-持续学习/attatchments",
     "存储",
-    "未命名.canvas",
     "AI/SD",
     "AI"
   ]
